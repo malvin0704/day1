@@ -1,0 +1,96 @@
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ text-decoration: none;
+}
+main {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ }
+ #container {
+  width:30vw;
+ }
+ h1 {
+  text-align: center;
+ }
+ input {
+  border-radius:5px;
+  border:grey solid 1px;
+  height:3vh;
+  margin-bottom:0.5rem;
+  padding-left:0.5rem;
+  cursor: pointer;
+ }
+ input:hover {
+  border:rgb(78, 78, 227) solid 2px;
+  box-shadow: 1px 1px 1px rgb(78, 78, 227);
+ }
+ .left{
+  margin-right:3%
+ }
+ .short{
+  width:48%;
+ }
+ .long{
+  width:100%;
+ }
+ #agree {
+  vertical-align: center;
+  height:1%;
+ }
+ button {
+  width:48%;
+  height:3vh;
+  background-color: rgb(49, 197, 49);
+  border-radius:5px;
+  border:none;
+  cursor: pointer;
+  color:white;
+ }
+ #register {
+  background-color: rgb(60, 60, 208);
+  margin-right:3%;
+ }
+ a {
+  color:blue;
+ }
+ #first_link {
+  border-radius:3px;
+  padding:0 0.5rem;
+  background-color:rgb(60, 60, 208);
+  color:white;
+ }
+ label {
+  font-size:12px;
+  font-weight: bold;
+  vertical-align: center;
+ }
+ span {
+  font-size: 12px;
+  display:inline-block;
+  width:78%;
+  margin-left:8%;
+ }
+@media screen and (max-width: 1400px){
+ .short{
+  width:100%;
+ }
+ label{
+  font-size: 10px;
+ }
+ button {
+  width:100%;
+  margin-bottom:0.5rem;
+ }
+}
+@media screen and (max-width: 1250px){
+ span{
+  display:block;
+  width:100%;
+  margin-left:0;
+ }
+}
